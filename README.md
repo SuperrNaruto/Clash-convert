@@ -1,2 +1,1 @@
-# Clash-Bot
-一个clash mihomo订阅转化机器人
+# Clash-mihomo-subConvert
