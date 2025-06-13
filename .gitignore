@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# Virtual environments
+venv/
+
+# Misc
+.DS_Store
+.Python
+pytest_cache/
