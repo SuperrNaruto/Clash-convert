@@ -1,0 +1,43 @@
+# 游戏服务策略组模板
+- name: 🎮 Steam
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎮 Epic Games
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎮 PlayStation
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎮 Nintendo
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎮 Blizzard
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎮 EA
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎮 Ubisoft
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+

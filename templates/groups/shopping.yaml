@@ -1,0 +1,31 @@
+# 购物电商策略组模板
+- name: 🛒 Amazon
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🛍️ 淘宝
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+
+- name: 🛒 京东
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+
+- name: 🛍️ eBay
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🛒 拼多多
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+

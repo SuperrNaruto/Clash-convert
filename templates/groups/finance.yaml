@@ -1,0 +1,13 @@
+# 金融服务策略组模板
+- name: 💳 PayPal
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 💰 支付宝
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+

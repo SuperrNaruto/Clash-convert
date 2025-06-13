@@ -1,0 +1,31 @@
+# 新闻媒体策略组模板
+- name: 📰 BBC
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📺 CNN
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📰 Reuters
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📺 Fox News
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📰 新浪
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+

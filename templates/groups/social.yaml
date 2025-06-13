@@ -1,0 +1,73 @@
+# 社交媒体策略组模板
+- name: 💬 Telegram
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 💬 WhatsApp
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 💬 Line
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 💬 微信
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+
+- name: 💬 Discord
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📘 Facebook
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📷 Instagram
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🐦 Twitter
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 💼 LinkedIn
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📌 Pinterest
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎵 TikTok
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📱 Snapchat
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+

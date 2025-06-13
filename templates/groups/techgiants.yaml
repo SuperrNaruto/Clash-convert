@@ -1,0 +1,109 @@
+# 科技巨头策略组模板
+- name: 🍎 Apple
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📱 App Store
+  type: select
+  proxies:
+    - 🍎 Apple
+    - 🚀 节点选择
+    - DIRECT
+
+- name: ☁️ iCloud
+  type: select
+  proxies:
+    - 🍎 Apple
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎵 Apple Music
+  type: select
+  proxies:
+    - 🍎 Apple
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📺 Apple TV
+  type: select
+  proxies:
+    - 🍎 Apple
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🔍 Google
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📧 Gmail
+  type: select
+  proxies:
+    - 🔍 Google
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📱 Google Play
+  type: select
+  proxies:
+    - 🔍 Google
+    - 🚀 节点选择
+    - DIRECT
+
+- name: ☁️ Google Drive
+  type: select
+  proxies:
+    - 🔍 Google
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🪟 Microsoft
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📧 Outlook
+  type: select
+  proxies:
+    - 🪟 Microsoft
+    - 🚀 节点选择
+    - DIRECT
+
+- name: ☁️ OneDrive
+  type: select
+  proxies:
+    - 🪟 Microsoft
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 💼 Office365
+  type: select
+  proxies:
+    - 🪟 Microsoft
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎮 Xbox
+  type: select
+  proxies:
+    - 🪟 Microsoft
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📦 Amazon
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: ☁️ AWS
+  type: select
+  proxies:
+    - 📦 Amazon
+    - 🚀 节点选择
+    - DIRECT
+

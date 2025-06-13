@@ -1,0 +1,19 @@
+# 广告拦截策略组模板
+- name: 🛡️ 广告拦截
+  type: select
+  proxies:
+    - REJECT
+    - DIRECT
+
+- name: 🛡️ 隐私保护
+  type: select
+  proxies:
+    - REJECT
+    - DIRECT
+
+- name: 🛡️ 恶意软件
+  type: select
+  proxies:
+    - REJECT
+    - DIRECT
+

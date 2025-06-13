@@ -1,0 +1,91 @@
+# 流媒体策略组模板
+- name: 🎬 Netflix
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎵 Spotify
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📺 YouTube
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎭 Disney+
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎪 HBO
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📽️ Amazon Prime Video
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎨 Hulu
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎪 Paramount+
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📺 哔哩哔哩
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+
+- name: 🎭 AcFun
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+
+- name: 📱 AbemaTV
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎬 爱奇艺
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+
+- name: 📺 优酷
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+
+- name: 🎵 网易云音乐
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+
+- name: 🎶 QQ音乐
+  type: select
+  proxies:
+    - DIRECT
+    - 🚀 节点选择
+

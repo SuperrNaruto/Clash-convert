@@ -1,0 +1,31 @@
+# AI服务策略组模板
+- name: 🤖 OpenAI
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🧠 Claude
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🔍 Bing AI
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 🎨 Midjourney
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
+- name: 📝 Notion AI
+  type: select
+  proxies:
+    - 🚀 节点选择
+    - DIRECT
+
