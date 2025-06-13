@@ -269,6 +269,24 @@ RULESET_URLS = {
 python tests/test_new_features.py
 ```
 
+## 🐳 Docker部署
+
+使用Docker可以快速运行后端API服务（已包含构建好的前端静态文件）。
+
+### 构建镜像
+
+```bash
+docker build -t clash-converter .
+```
+
+### 运行容器
+
+```bash
+docker run -d -p 5000:5000 clash-converter
+```
+
+启动后访问 `http://localhost:5000` 查看服务是否正常。
+
 ## 🤝 贡献指南
 
 欢迎提交Issue和Pull Request来改进这个项目：
