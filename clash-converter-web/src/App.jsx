@@ -196,7 +196,7 @@ function App() {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       {/* 左侧：订阅配置 */}
       <div className="space-y-6">
-        <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
+        <div className="bg-white ios-glass rounded-xl shadow-lg p-6 card-hover">
           <div className="flex items-center mb-4">
             <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-3 mr-4">
               <span className="text-white text-2xl">📡</span>
@@ -237,7 +237,7 @@ function App() {
         </div>
 
         {/* 预设配置 */}
-        <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
+        <div className="bg-white ios-glass rounded-xl shadow-lg p-6 card-hover">
           <div className="flex items-center mb-4">
             <div className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg p-3 mr-4">
               <span className="text-white text-2xl">⚙️</span>
@@ -256,7 +256,7 @@ function App() {
                 className={`p-4 text-left border-2 rounded-xl transition-all btn-hover ${
                   JSON.stringify(selectedGroups.sort()) === JSON.stringify(preset.groups.sort())
                     ? getColorClasses(preset.color)
-                    : 'border-gray-200 hover:border-gray-300 bg-white'
+                    : 'border-gray-200 hover:border-gray-300 bg-white ios-glass'
                 }`}
               >
                 <div className="flex items-center mb-2">
@@ -340,7 +340,7 @@ function App() {
       {/* 右侧：功能特性和结果 */}
       <div className="space-y-6">
         {!result && !error && (
-          <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
+          <div className="bg-white ios-glass rounded-xl shadow-lg p-6 card-hover">
             <div className="flex items-center mb-4">
               <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-lg p-3 mr-4">
                 <span className="text-white text-2xl">✨</span>
@@ -397,7 +397,7 @@ function App() {
                   { label: '规则数量', value: result.stats.rules, icon: '📋' },
                   { label: '规则集', value: result.stats.rulesets, icon: '📦' }
                 ].map((stat, index) => (
-                  <div key={index} className="bg-white rounded-lg p-3 text-center">
+                  <div key={index} className="bg-white ios-glass rounded-lg p-3 text-center">
                     <div className="text-2xl mb-1">{stat.icon}</div>
                     <div className="text-sm text-gray-600">{stat.label}</div>
                     <div className="font-bold text-lg text-gray-800">{stat.value}</div>
@@ -405,7 +405,7 @@ function App() {
                 ))}
               </div>
               
-              <div className="bg-white rounded-lg p-4">
+              <div className="bg-white ios-glass rounded-lg p-4">
                 <span className="text-gray-600 font-medium">选中策略组:</span>
                 <div className="mt-2 flex flex-wrap gap-2">
                   {result.selected_groups.map((group, index) => (
@@ -440,7 +440,7 @@ function App() {
         {Object.entries(groupTypes).map(([groupId, group]) => (
           <div
             key={groupId}
-            className={`bg-white rounded-xl shadow-lg p-6 cursor-pointer transition-all card-hover ${
+            className={`bg-white ios-glass rounded-xl shadow-lg p-6 cursor-pointer transition-all card-hover ${
               selectedGroups.includes(groupId)
                 ? 'ring-4 ring-blue-500 bg-blue-50 transform scale-105'
                 : 'hover:shadow-xl'
@@ -521,7 +521,7 @@ function App() {
       </div>
 
       {/* 选择统计 */}
-      <div className="mt-8 bg-white rounded-xl shadow-lg p-6">
+      <div className="mt-8 bg-white ios-glass rounded-xl shadow-lg p-6">
         <div className="flex items-center justify-between">
           <div>
             <h3 className="text-lg font-semibold text-gray-800">当前选择</h3>
@@ -554,7 +554,7 @@ function App() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-        <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
+        <div className="bg-white ios-glass rounded-xl shadow-lg p-6 card-hover">
           <div className="flex items-center mb-4">
             <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-3 mr-4">
               <span className="text-white text-2xl">📊</span>
@@ -580,7 +580,7 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
+        <div className="bg-white ios-glass rounded-xl shadow-lg p-6 card-hover">
           <div className="flex items-center mb-4">
             <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-lg p-3 mr-4">
               <span className="text-white text-2xl">✨</span>
@@ -604,7 +604,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-white rounded-xl shadow-lg p-8">
+      <div className="bg-white ios-glass rounded-xl shadow-lg p-8">
         <div className="text-center mb-6">
           <div className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg p-4 inline-block mb-4">
             <span className="text-white text-3xl">🚀</span>
@@ -634,9 +634,9 @@ function App() {
   )
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <div className="min-h-screen ios-background">
       {/* 头部导航 */}
-      <header className="bg-white shadow-lg">
+      <header className="bg-white ios-glass shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
@@ -660,7 +660,7 @@ function App() {
       </header>
 
       {/* 标签页导航 */}
-      <div className="bg-white border-b shadow-sm">
+      <div className="bg-white ios-glass border-b shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex space-x-8">
             {[
@@ -695,7 +695,7 @@ function App() {
       </main>
 
       {/* 页脚 */}
-      <footer className="bg-white border-t mt-12 shadow-lg">
+      <footer className="bg-white ios-glass border-t mt-12 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <div className="flex justify-center items-center mb-4">
