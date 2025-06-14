@@ -1,7 +1,8 @@
 import { IonApp, IonHeader, IonToolbar, IonTitle, IonContent, IonItem, IonLabel, IonInput, IonList, IonCheckbox, IonButton, IonAlert, IonLoading } from '@ionic/react';
 import { useEffect, useState } from 'react';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+// 通过环境变量 VITE_API_BASE_URL 指定后端地址，默认指向同源的 /api
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 function App() {
   const [subscriptionUrl, setSubscriptionUrl] = useState('');
