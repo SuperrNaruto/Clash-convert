@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
-const API_BASE_URL = 'http://localhost:5000/api'
+// API 基础地址可通过环境变量 VITE_API_BASE_URL 配置
+// 默认为與當前網站同源的 `/api` 路徑
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api'
 
 function App() {
   const [activeTab, setActiveTab] = useState('convert')

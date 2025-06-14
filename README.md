@@ -287,6 +287,15 @@ docker run -d -p 5000:5000 clash-converter
 
 启动后访问 `http://localhost:5000` 查看服务是否正常。
 
+### 配置前端 API 地址
+
+前端页面会从 `VITE_API_BASE_URL` 环境变量读取后端 API 地址，若未设置则默认
+请求当前域名下的 `/api` 路径。在开发模式下可指定该变量：
+
+```bash
+VITE_API_BASE_URL=http://localhost:5000/api pnpm dev
+```
+
 ## 🤝 贡献指南
 
 欢迎提交Issue和Pull Request来改进这个项目：
